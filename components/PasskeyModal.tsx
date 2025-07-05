@@ -71,6 +71,7 @@ export const PasskeyModal = () => {
         <AlertDialogHeader>
           <AlertDialogTitle className="flex items-start justify-between">
             Admin Access Verification
+          
             <Image
               src="/assets/icons/close.svg"
               alt="close"
@@ -82,6 +83,8 @@ export const PasskeyModal = () => {
           </AlertDialogTitle>
           <AlertDialogDescription>
             To access the admin page, please enter the passkey.
+              <br/>
+            Passkey:123456
           </AlertDialogDescription>
         </AlertDialogHeader>
         <div>
